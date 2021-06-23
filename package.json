@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "generate-service-worker": "msw init public/"
+    "generate-service-worker": "msw init public/",
+    "serve-prod": "http-server storybook-static"
   },
   "eslintConfig": {
     "extends": [
