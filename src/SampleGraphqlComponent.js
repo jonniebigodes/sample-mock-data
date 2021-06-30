@@ -34,6 +34,7 @@ export function SampleGraphqlComponent() {
 
   return (
     <div className="films-grid">
+      <div>GrapQL</div>
       {films.map((film) => (
         <div key={film.episode_id}>
           <article className="film-card">

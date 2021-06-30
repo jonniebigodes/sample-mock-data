@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SampleComponent from "./SampleComponent";
-
+import { GraphQLProviderExample } from "./GraphqlProvider";
 function useFetchData() {
   const [status, setStatus] = useState("idle");
   const [data, setData] = useState([]);
@@ -41,6 +41,7 @@ function App() {
       {todos.map((item) => (
         <SampleComponent key={item.id} item={item} />
       ))}
+      <GraphQLProviderExample />
     </div>
   );
 }
